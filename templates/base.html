@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/static/css/output.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/static/img/quick_start.jpg" type="image/x-icon">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <title>FastAPI App</title>
+  </head>
+  <body class="min-h-screen flex flex-col p-2">
+    <header>
+      <h1 class="text-center p-2">FastAPI App</h1>
+    </header>
+    <main class="flex-1">
+      {% block content %}
+      {% endblock content %}
+    </main>
+    <footer>
+      <p class="text-center p-2">FastAPI App footer</p>
+    </footer>
+  </body>
+</html>

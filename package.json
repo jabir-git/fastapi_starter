@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "(macOS) install tailwind css": "cd ./static/css && curl -sL daisyui.com/fast | bash",
+    "(macOS) build css": "./static/css/tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch",
+    "(Windows) install tailwind css": "cd ./static/css && powershell -c irm daisyui.com/fast.ps1 | iex",
+    "(Windows) build css": ".\\static\\css\\tailwindcss.exe -i .\\static\\css\\input.css -o .\\static\\css\\output.css --watch"
+  }
+}
