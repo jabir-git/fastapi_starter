@@ -14,3 +14,6 @@ wheels/
 
 # Tailwindcss standalone binary
 static/css/tailwindcss
+
+#Others
+.DS_Store
