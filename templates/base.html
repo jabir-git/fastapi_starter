@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- DaisyUI CSS Output -->
     <link href="/static/css/output.css" rel="stylesheet" type="text/css" />
+    <!-- App Icon -->
     <link rel="shortcut icon" href="/static/img/quick_start.jpg" type="image/x-icon">
+    <!-- AlpineJS -->
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>FastAPI App</title>
   </head>
@@ -14,7 +17,7 @@
     </header>
     <main class="flex-1">
       {% block content %}
-      {% endblock content %}
+      {% endblock %}
     </main>
     <footer>
       <p class="text-center p-2">FastAPI App footer</p>
