@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icon -->
+    <!-- Styles -->
+    <link rel="stylesheet" href="/static/css/output.css" />
+    <!-- scripts -->
+    {% if is_debug %}
+    <script src="/static/js/livereload.js" defer></script>
+    {% endif %}
+    <title>Document</title>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <main class="flex-1">
+      {% block main %}
+      <h1 class="text-2xl p-4">Hello</h1>
+      {% endblock main %}
+    </main>
+  </body>
+</html>

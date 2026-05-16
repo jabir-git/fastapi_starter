@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "install tailwindcss": "npm install tailwindcss@latest @tailwindcss/cli@latest daisyui@latest",
+    "build-watch:css": "npx @tailwindcss/cli -i static/css/input.css -o static/css/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "daisyui": "^5.5.19",
+    "tailwindcss": "^4.3.0"
+  }
+}

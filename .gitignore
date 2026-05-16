@@ -1,0 +1,27 @@
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments and env files
+venv/
+.venv/
+.env
+
+# macOS
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Tailwind executable (project-local)
+tailwindcss
+
+# Node modules
+node_modules/
